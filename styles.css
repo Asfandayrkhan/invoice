@@ -1,0 +1,267 @@
+body {
+    font-family: sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd3d3;
+   
+}
+
+
+
+.invoice {
+    
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+div{
+    padding:0;
+    margin: 0;
+}
+header {
+    text-align: center;
+    
+ 
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+header h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.logo{
+
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 200px;
+}
+.contact-info {
+    
+    text-align: left;
+   
+}
+
+.contact-info p,.contact p{
+    margin: 2px 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.contact{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    
+   
+}
+.contact .col2{
+    
+    margin-right: 50%;
+    
+}
+/* .contact .bill-to{
+    border-bottom: 2px solid #000;
+
+} */
+.head{
+
+    
+    margin-right: 50%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.address {
+
+    display: flex;
+    justify-content: space-between;
+    
+   
+
+}
+.border{
+    margin-top: 10px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #030303;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.border.head{
+    margin-bottom: 10px;
+}
+.border .col1{
+    margin-left: 5px;
+    
+
+}
+.border .col2{
+    margin-right: 40px;
+    
+
+}
+
+
+/* .address h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    margin-right: 40px;
+} */
+.bill-to p {
+    
+    margin: 2px 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bill-to h3{
+    margin-left: 5px;
+}
+.ship-to p{
+    font-size: 12px;
+    font-weight: 700;   
+   
+    margin-right: 30px;
+}
+
+.address .ship-to {
+  margin-right: 50%;
+  
+}
+/* .bill-to h3{
+    border-bottom: 2px solid #000;
+} */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+/* .summary{
+   
+    display: flex;
+     justify-content: space-between;
+    text-align: left;
+}
+
+
+.sum{
+   
+   display: flex;
+    
+
+}
+.sum p{
+    justify-content: center;
+    padding-right: 60px;
+} */
+
+.summary {
+    
+    height: 40px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    
+    margin-left: 20px;
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.sum {
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+    /* This will make the "sum" div take up equal space */
+    display: flex; /* Make the "sum" div horizontal */
+    justify-content: space-between; /* Equal space between its child elements */
+    align-items: center /* This will make the "sum" div take up equal space */
+}
+
+.accounts{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+   
+    font-weight: 400;
+}
+.accounts div{
+    margin-left: 20px;
+}
+
+
+
+
+.footer .trading-rule {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.footer .signatures{
+
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.signatures .col2{
+    margin-right: 20%;
+}
+
+
+.footer p {
+    margin: 5px 0;
+}
+.name{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: right;
+}
